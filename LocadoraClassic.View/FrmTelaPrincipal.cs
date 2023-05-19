@@ -28,5 +28,23 @@ namespace LocadoraClassic.View
             FrmTelaCategoria frmTelaCategoria = new FrmTelaCategoria();
             frmTelaCategoria.Show();
         }
+
+        private void filmeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmTelaFilme frmTelaFilme = new FrmTelaFilme();
+            frmTelaFilme.Show();
+        }
+
+        private void clienteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmTelaCliente frmTelaCliente = new FrmTelaCliente();
+            frmTelaCliente.Show();
+        }
+
+        private void realizarLocaçãoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmTelaLocacao frmTelaLocacao = new FrmTelaLocacao();
+            frmTelaLocacao.Show();
+        }
     }
 }

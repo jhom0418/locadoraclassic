@@ -91,12 +91,14 @@
             this.filmeToolStripMenuItem.Name = "filmeToolStripMenuItem";
             this.filmeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.filmeToolStripMenuItem.Text = "Filme";
+            this.filmeToolStripMenuItem.Click += new System.EventHandler(this.filmeToolStripMenuItem_Click);
             // 
             // clienteToolStripMenuItem
             // 
             this.clienteToolStripMenuItem.Name = "clienteToolStripMenuItem";
             this.clienteToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.clienteToolStripMenuItem.Text = "Cliente";
+            this.clienteToolStripMenuItem.Click += new System.EventHandler(this.clienteToolStripMenuItem_Click);
             // 
             // locaçãoToolStripMenuItem
             // 
@@ -110,13 +112,14 @@
             // realizarLocaçãoToolStripMenuItem
             // 
             this.realizarLocaçãoToolStripMenuItem.Name = "realizarLocaçãoToolStripMenuItem";
-            this.realizarLocaçãoToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
+            this.realizarLocaçãoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.realizarLocaçãoToolStripMenuItem.Text = "Realizar Locação";
+            this.realizarLocaçãoToolStripMenuItem.Click += new System.EventHandler(this.realizarLocaçãoToolStripMenuItem_Click);
             // 
             // relatorioDeárioToolStripMenuItem
             // 
             this.relatorioDeárioToolStripMenuItem.Name = "relatorioDeárioToolStripMenuItem";
-            this.relatorioDeárioToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
+            this.relatorioDeárioToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.relatorioDeárioToolStripMenuItem.Text = "Relatorio Diário";
             // 
             // relatóriosToolStripMenuItem
